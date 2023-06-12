@@ -5,16 +5,7 @@ import 'package:flutter/material.dart';
 
 
 class HomeView extends StatelessWidget {
-  HomeView({Key? key}) : super(key: key);
-
-  final List itemList = [
-    "Egg",
-    "Condom",
-    "Toothpaste",
-    "Tea",
-    "Pad",
-    "Jell"
-  ];
+  const HomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +32,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Egg"),
             ),
           ),
@@ -51,7 +45,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Fruit"),
             ),
           ),
@@ -61,7 +58,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Cake"),
             ),
           ),
@@ -71,7 +71,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Chips"),
             ),
           ),
@@ -81,7 +84,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Chicken"),
             ),
           ),
@@ -91,7 +97,10 @@ class HomeView extends StatelessWidget {
               iconColor: Colors.red,
               contentPadding: const EdgeInsets.all(2),
               tileColor: Colors.blueGrey.withOpacity(.2),
-              leading: const Icon(Icons.shopping_basket),
+              leading: Container(
+                margin: const EdgeInsets.only(left: 10),
+                child: const Icon(Icons.shopping_basket),
+              ),
               title: const Text("Meat"),
             ),
           )
